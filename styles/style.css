@@ -1,0 +1,842 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(33, 50, 95);    
+}
+
+
+
+
+/* scroll lateral */ 
+
+body::-webkit-scrollbar{
+    width: 14px;
+    background-color: rgba(19, 36, 83, 0.63);
+
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(49, 74, 143);
+    border-radius: 9px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(42, 63, 122);
+}
+/* -------------------------------- */
+
+
+
+
+
+/* --------------header------------ */
+header{
+    display: flex;
+    height: 10vh;
+    background: linear-gradient(90deg, rgba(45,63,134,1) 0%, rgba(29,48,97,1) 100%, rgba(8,83,148,1) 100%, rgba(0,212,255,1) 100%);
+    justify-content: space-between;
+    align-items: center;
+}
+.container-logo{
+    border-radius: 32px;
+    margin-left: 25px;
+}
+.logo{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    align-items: center;
+    transition: ease-in-out .20s;
+    width: 2vw;
+    border-radius: 30px;  
+}
+.logo:hover{
+    background-color: rgba(240, 248, 255, 0.918);
+    border-radius: 30px;
+    padding-right: 9px;
+    color: rgb(33, 50, 95);
+    width: 100%;
+}
+.nombre-empresa{
+    font-size: 2rem;
+    padding-top: 9px;
+    padding-left: 4px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-style: oblique;
+}
+.barra-nav{
+    display: inline-block;
+    padding-right: 20px;
+}
+.barra-nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Inter', serif;
+    font-weight: 600;
+    margin: 6px;
+    transition: ease-in-out .20s;
+    padding: 2px;
+    border-radius: 32px;
+}
+.barra-nav a:hover{
+    background-color: aliceblue;
+    padding: 4px;
+    border-radius: 22px;
+    color: rgb(33, 50, 95);
+}
+.logo img{
+    height: 60px;
+}
+/* ------------------ */
+
+
+
+/* -----hero--------- */
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: aliceblue;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/hero-a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero button{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Inter', sans;
+    background-color: rgb(49, 74, 143);
+    color: aliceblue;
+    padding: 14px 20px;
+    border: solid 1px rgba(7, 7, 7, 0.096);
+    border-radius: 10px;
+    margin-top: 3vh;
+}
+
+#hero button:hover{
+    background: linear-gradient(90deg, rgba(45,63,134,1) 0%, rgba(29,48,97,1) 100%, rgba(8,83,148,1) 100%, rgba(0,212,255,1) 100%);
+    border: solid 1px rgba(7, 7, 7, 0.096);
+}
+
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+
+#hero h1{
+    color: aliceblue;
+}
+#hero a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 14px 20px;
+}
+/* ------------------------ */
+
+
+
+/* -------hero-viajes------ */
+
+#hero-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: aliceblue;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/hero-b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero-b h1{
+    color: aliceblue;
+}
+/* ------------------------- */
+
+
+
+/* -------------section------- */
+
+#visita-nuestro-pais{
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+}
+#visita-nuestro-pais h2{
+    margin-bottom: 20px;
+}
+#visita-nuestro-pais p{
+    font-weight: 500;
+}
+#visita-nuestro-pais .container{    
+    text-align: center;
+    padding: 200px 12px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+/* carousel----- */
+.carousel{
+    margin: 4vh 10vw;
+    margin-bottom: 14vh;
+}
+.carousel img{
+    max-height: 80vh;
+}
+/* -------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ----footer------ */
+footer{
+    background: linear-gradient(90deg, rgba(16,24,46,1) 21%, rgba(22,33,62,1) 77%, rgba(21,32,61,1) 100%);
+    color: aliceblue;
+    max-height: 100vh;
+    border: solid 1px rgba(0, 0, 0, 0.247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.logo-footer{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+.logo-footer img{
+    height: 60px;
+}
+.nombre-empresa-footer{
+    font-size: 2rem;
+    padding-top: 9px;
+    padding-left: 4px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-style: oblique;
+}
+footer p{
+    margin: 0px 3vw;
+}
+.footer-icons{
+    margin-bottom: 60px;
+}
+.footer-icons a{
+    margin: 24px;
+    padding: 20px;
+}
+.footer-icons a:hover{
+    background-color: rgb(33, 50, 95);
+    padding: 20px;
+    border-radius: 50px;
+}
+.footer-icons img{
+    height: 3.5vh;
+}
+
+
+
+
+
+
+/* --------MEDIAS------------------------------- */
+@media screen and (max-width: 1000px){
+    /* VIAJES.HTML */
+
+    /* caba---section */
+    .caba-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-caba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .carda{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .carda h4{
+        font-size: 1.2rem;
+    }
+    .carda p{
+        margin: 0;
+        font-size: 0.8rem;  
+    }
+    /* ------------------------- */
+
+
+    /* cordoba---section */
+    .cba-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-cba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardb{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardb h4{
+        font-size: 1.2rem;
+    }
+    .cardb p{
+        margin: 0;
+        font-size: 0.8rem;       
+    }
+    /* ---------------------------- */
+
+
+    /* bariloche---section */
+    .brc-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-brc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardc{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardc h4{
+        font-size: 1.2rem;
+    }
+    .cardc p{
+        margin: 0;
+        font-size: 0.8rem;       
+    }
+    /* ---------------------------- */
+
+
+    /* ushuaia---section */
+    .ushuaia-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-ushuaia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardd{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardd h4{
+        font-size: 1.2rem;
+    }
+    .cardd p{
+        margin: 0;
+        font-size: 0.8rem;    
+    }
+/* ---------------------------------------- */
+}
+
+
+@media screen and (max-width: 740px){
+    /* HEADER---WEBSITE--------------- */
+    header{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+    }
+    .logo{
+        justify-content: center;
+    }
+    .logo:hover{
+        background-color: rgba(240, 248, 255, 0.918);
+        border-radius: 30px;
+        padding-right: 9px;
+        color: rgb(33, 50, 95);
+        width: 0;
+    }
+    .barra-nav{
+        padding: 0px 0px 6px 0px;
+
+    }
+    .container-logo{
+        margin: 0;
+    }
+    .footer-icons{
+        padding-top: 20px;
+    }
+
+    .proporcionamos-viajes{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .logo img{
+        height: 40px;
+    }
+    .logo h2{
+        font-size: 1.6rem;
+    }
+    .barra-nav a{
+        font-size: 0.9rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    a{
+        font-size: 1.2rem;
+    }
+    footer{
+        font-size: 0.9rem;
+    }
+    .logo-footer img{
+        height: 30px;
+    }
+    .logo-footer h2{
+        font-size: 1.6rem;
+    }
+    .container-footer p{
+        font-size: 0.7rem;
+    }
+    .footer-icons a{
+        margin: 14px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .logo img{
+        height: 26px;
+    }
+    .logo h2{
+       font-size: 1.2rem;
+    }
+    .barra-nav a{
+        font-size: 0.8rem;
+
+    }
+    .container-logo{
+        margin: 0;
+    }
+    .barra-nav a{
+        padding: 0px 0px;
+        margin: 0px 4px;
+    }
+}
+
+/* -------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ............section 2............... */
+
+.proporcionamos-viajes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 40px 20px;
+    color: aliceblue;
+    font-family: 'Inter', sans;
+    font-weight: 500;
+    font-size: large;
+    height: 90vh;
+}
+.proporcionamos-viajes p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/* ---------viajes----------------- */
+
+/* ---------BUENOS-AIRES----------- */
+
+.viaje-caba{
+    background-color: rgb(33, 50, 95);
+}
+.caba-container{
+    margin-top: 40px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    )
+    ,url(../images/viajes-photos/artistas-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+.caba-container h2{
+    padding: 40px;
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+}
+.container-viajes-caba{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    )
+    ,url(../images/viajes-photos/artistas-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.carda{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(16,24,46,1) 21%, rgba(22,33,62,1) 77%, rgba(21,32,61,1) 100%);
+    color: aliceblue;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.carda h4{
+    align-self: flex-start;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.carda p{
+    margin: 0px 15px 0px 15px;
+}
+.carda img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.carda button{
+    background-color: rgb(53, 87, 196);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Inter', sans;
+    transition: ease-in .25s;
+}
+.carda button:hover{
+    background-color: rgb(39, 65, 151);
+}
+
+
+/* ---------------CORDOBA--------------- */
+
+    .viaje-cba{
+        background-color: rgb(33, 50, 95);
+    }
+    .cba-container{
+        margin-top: 40px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+        )
+        ,url(../images/viajes-photos/cordoba-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+    }
+    .cba-container h2{
+        padding: 40px;
+        text-align: center;
+        color: aliceblue;
+        margin: 0;
+    }
+    .container-viajes-cba{
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+        )
+        ,url(../images/viajes-photos/cordoba-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .cardb{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(16,24,46,1) 21%, rgba(22,33,62,1) 77%, rgba(21,32,61,1) 100%);
+    
+        color: aliceblue;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+    .cardb h4{
+        align-self: flex-start;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .cardb p{
+        margin: 0px 15px 0px 15px;
+    }
+    .cardb img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }   
+    .cardb button{
+        background-color: rgb(53, 87, 196);
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: large;
+        font-family: 'Inter', sans;
+        transition: ease-in .25s;   
+    }
+    .cardb button:hover{
+        background-color: rgb(39, 65, 151);
+    }
+
+
+
+
+
+    /* ---------------BARILOCHE------------- */
+
+    .viaje-brc{
+        background-color: rgb(33, 50, 95);
+    }
+    .brc-container{
+        margin-top: 40px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+        )
+        ,url(../images/viajes-photos/bariloche-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+    }
+    .brc-container h2{
+        padding: 40px;
+        text-align: center;
+        color: aliceblue;
+        margin: 0;
+    }
+    .container-viajes-brc{
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+        )
+        ,url(../images/viajes-photos/bariloche-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;   
+    }
+    
+    .cardc{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(16,24,46,1) 21%, rgba(22,33,62,1) 77%, rgba(21,32,61,1) 100%);
+        color: aliceblue;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+    .cardc h4{
+        align-self: flex-start;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .cardc p{
+        margin: 0px 15px 0px 15px;
+    }
+    .cardc img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .cardc button{
+        background-color: rgb(53, 87, 196);
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: large;
+        font-family: 'Inter', sans;
+        transition: ease-in .25s;
+    }
+    .cardc button:hover{
+        background-color: rgb(39, 65, 151);
+    }
+
+
+
+
+
+
+
+
+
+
+    /* ---------------USHUAIA------------- */
+
+    .viaje-ushuaia{
+        background-color: rgb(33, 50, 95);
+    }
+    .ushuaia-container{
+        margin-top: 40px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+        )
+        ,url(../images/viajes-photos/ushuaia-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;  
+    }
+    .ushuaia-container h2{
+        padding: 40px;
+        text-align: center;
+        color: aliceblue;
+        margin: 0;
+    }
+    .container-viajes-ushuaia{
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+        )
+        ,url(../images/viajes-photos/ushuaia-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .cardd{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(16,24,46,1) 21%, rgba(22,33,62,1) 77%, rgba(21,32,61,1) 100%);
+        color: aliceblue;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+    .cardd h4{
+        align-self: flex-start;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .cardd p{
+        margin: 0px 15px 0px 15px;
+    }
+    .cardd img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .cardd button{
+        background-color: rgb(53, 87, 196);
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: large;
+        font-family: 'Inter', sans;
+        transition: ease-in .25s;
+    }
+    .cardd button:hover{
+        background-color: rgb(39, 65, 151);
+    }
