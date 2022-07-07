@@ -132,6 +132,94 @@ footer .footer-icons img {
   height: 3.5vh;
 }
 
+@media screen and (max-width: 740px) {
+  /* HEADER---WEBSITE--------------- */
+  header {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .logo:hover {
+    background-color: rgba(240, 248, 255, 0.918);
+    border-radius: 30px;
+    padding-right: 9px;
+    color: rgb(33, 50, 95);
+    width: 0;
+  }
+  .barra-nav {
+    padding: 0px 0px 6px 0px;
+  }
+  .container-logo {
+    margin: 0;
+  }
+  .footer-icons {
+    padding-top: 20px;
+  }
+  .proporcionamos-viajes {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logo img {
+    height: 40px;
+  }
+  .logo h2 {
+    font-size: 1.6rem;
+  }
+  .barra-nav a {
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 1.2rem;
+  }
+  footer {
+    font-size: 0.9rem;
+  }
+  .logo-footer img {
+    height: 30px;
+  }
+  .logo-footer h2 {
+    font-size: 1.6rem;
+  }
+  .container-footer p {
+    font-size: 0.7rem;
+  }
+  .footer-icons a {
+    margin: 14px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .logo img {
+    height: 26px;
+  }
+  .logo h2 {
+    font-size: 1.2rem;
+  }
+  .barra-nav a {
+    font-size: 0.8rem;
+  }
+  .container-logo {
+    margin: 0;
+  }
+  .barra-nav a {
+    padding: 0px 0px;
+    margin: 0px 4px;
+  }
+}
 #hero button {
   font-size: 1.5em;
   font-weight: bold;
