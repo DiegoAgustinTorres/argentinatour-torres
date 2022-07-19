@@ -47,3 +47,11 @@
         font-weight: bold;
     }
 }
+
+
+.segundobann{
+    @extend #visita-nuestro-pais;
+    
+    @include card-bann(20vh);
+    background-color: map-get($colors, "body2");
+}

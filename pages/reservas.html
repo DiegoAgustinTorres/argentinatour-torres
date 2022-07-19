@@ -14,7 +14,7 @@
     <title>ArgentinaTour</title>
 </head>
 <body>
-    
+
     <header>
         <div class="container-logo">
             <a href="../index.html" class="logo">
@@ -32,25 +32,36 @@
 
     </header>
 
+    <main>
+        <section class="reservas-section">
+            <h2>Para realizar una reserva complete con los datos</h2>
+            <div class="reservas-div">
+                <form class="reservas-form">
 
+                    <label for="campo-nombres">Nombre y Apellido:</label>
+                    <input type="text" id="campo-nombres">
 
+                    <label for="campo.email">Email:</label>
+                    <input type="email" id="campo-email">
 
+                    <label for="campo-number">Celular:</label>
+                    <input type="number" id="campo-number">
 
+                    <label for="campo.date">Fecha de nacimiento:</label>
+                    <input type="date" id="campo-date">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <label for="destino-viaje">Destino</label>
+                    <select name="Elegir destino" id="destino-viaje">
+                        <option value="">CABA</option>
+                        <option value="">Cordoba</option>
+                        <option value="">Ushuaia</option>
+                        <option value="">Bariloche</option>
+                    </select>
+                    <button class="boton-reservas" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container-footer">
@@ -58,7 +69,7 @@
                 <img src="../images/escarapela.png" alt="logo de la compania">
                 <h2 class="nombre-empresa-footer">ArgentinaTour</h2>
             </div>
-            <p>Argenina Tour viajes Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi dolore maiores libero iure quae rem, quis aliquam omnis error doloremque natus esse ea maxime provident sit velit, dolorum saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam aliquid ipsum, at hic placeat, odio modi, corrupti cupiditate libero iusto est. Iure repellat, deserunt impedit modi tempora nesciunt voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia suscipit voluptate aut corrupti quaerat nobis magnam ab ducimus itaque eveniet, veniam consequatur non minus. Ad repellat id reiciendis maiores eveniet!</p>
+            <p>Argenina Tour viajes empresa dedicada a ofrecer planes de viajes accesibles para cualquier persona. <br>Sede central en Merlo San Luis Argentina, con sedes en Cordoba, Buenos Aires y Montevideo. <br>Copyright-Todos los derechos reservados</p>
         </div>
         <div class="footer-icons">
             <a href="https://facebook.com" target="_blank"><img src="../images/facebook-footer.png" alt="logotipo de facebook"></a>
@@ -67,10 +78,5 @@
             <a href="https://youtube.com" target="_blank"><img src="../images/youtube-footer.png" alt="logotipo de youtube"></a>
         </div>
     </footer>
-
-
-
-
-
 </body>
 </html>

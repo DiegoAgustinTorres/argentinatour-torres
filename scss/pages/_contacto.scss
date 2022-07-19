@@ -1,0 +1,205 @@
+.grid-one{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    color: aliceblue;
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-contenedor-one{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 50px;
+}
+
+.contacto-ig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/contacto-icons/instagram.png);
+    background-size: cover;
+    background-position: center center;
+    height: 180px;
+    width: 180px;
+    border-radius: 70px;
+    font-size: 1.2rem;
+}
+.contacto-ig:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.301);
+}
+
+.contacto-twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/contacto-icons/twitter.png);
+    background-size: cover;
+    background-position: center center;
+    height: 180px;
+    width: 180px;
+    border-radius: 70px;
+    font-size: 1.2rem;
+
+}
+
+.contacto-twitter:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.301);
+}
+
+.contacto-oficinas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    )
+    ,url(../images/contacto-icons/oficina.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 180px;
+    width: 460px;
+    border-radius: 70px;
+    font-size: 1rem;
+
+}
+.contacto-oficinas:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.301);
+}
+.grid-two{
+display: flex;
+justify-content: center;
+}
+
+.redes-info{
+    color: aliceblue;
+    display: flex;
+    height: 45vh;
+    width: 74%;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    )
+    ,url(../images/contacto-icons/edificiosxd.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: 40px 0px;
+    border-radius: 70px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(58, 136, 224), 
+        rgb(145, 144, 144)
+      ) 1 100%;
+
+}
+.redes-info h3{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    padding: 10px 0px;
+}
+.redes-info p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10px 0px 30px;
+}
+
+
+
+.redes-contenedor-th{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin: 76px 170px;
+}
+
+.contacto-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/contacto-icons/linkedin.png);
+    background-size: cover;
+    background-position: center center;
+    height: 180px;
+    width: 180px;
+    border-radius: 70px;
+    font-size: 1.2rem;
+}
+.contacto-in:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.301);
+}
+
+
+.contacto-yt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/contacto-icons/youtube.png);
+    background-size: cover;
+    background-position: center center;
+    height: 180px;
+    width: 180px;
+    border-radius: 70px;
+    font-size: 1.2rem;
+}
+.contacto-yt:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.301);
+}
+
+
+
+
+.contacto-gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    )
+    ,url(../images/contacto-icons/gmail.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 180px;
+    width: 460px;
+    border-radius: 70px;
+    font-size: 1rem;
+
+}
+.contacto-gmail:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.301);
+}

@@ -1,0 +1,95 @@
+.nosotros-section{
+    color: aliceblue;
+    
+}
+
+.nosotros-a{
+    background-color: aqua;
+    margin: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    )
+    ,url(../images/contacto-icons/trabajadores.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(58, 136, 224), 
+        rgb(145, 144, 144)
+      ) 1 100%;
+}
+.nosotros-a h2{
+    margin: 20px 0px 0px 20px;
+}
+.nosotros-a p{
+    text-align: center;
+    margin: 20px;
+}
+
+.nosotros-b{
+    background-color: aqua;
+    margin: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    )
+    ,url(../images/contacto-icons/colectivo.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(58, 136, 224), 
+        rgb(145, 144, 144)
+      ) 1 100%;
+}
+.nosotros-b h2{
+    margin: 20px 0px 0px 20px;
+    margin: 20px;
+}
+.nosotros-b p{
+    text-align: center;
+    margin: 20px;
+}
+
+.nosotros-c{
+    background-color: aqua;
+    margin: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    )
+    ,url(../images/contacto-icons/avion.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(58, 136, 224), 
+        rgb(145, 144, 144)
+      ) 1 100%;
+}
+.nosotros-c h2{
+    margin: 20px 0px 0px 20px;
+}
+.nosotros-c p{
+    text-align: center;
+    margin: 20px;
+}

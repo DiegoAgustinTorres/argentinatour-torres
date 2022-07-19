@@ -1,3 +1,148 @@
+@media screen and (max-width: 1000px){
+    /* VIAJES.HTML */
+
+    /* caba---section */
+    .caba-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-caba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .carda{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .carda h4{
+        font-size: 1.2rem;
+    }
+    .carda p{
+        margin: 0;
+        font-size: 0.8rem;  
+    }
+
+    /* .....section---contacto..... */
+    .redes-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes-contenedor-one{
+        display: flex;
+        padding: 30px;
+
+    }
+    .grid-one{
+        flex-direction: column;
+    }
+
+
+    
+
+
+
+     /* .....section---nosotros..... */
+
+    .nosotros-section h2{
+        font-size: 1.2rem;
+    }
+    .nosotros-section p{
+        font-size: 1rem;
+    }
+
+    }
+    /* ------------------------- */
+
+
+    /* cordoba---section */
+    .cba-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-cba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardb{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardb h4{
+        font-size: 1.2rem;
+    }
+    .cardb p{
+        margin: 0;
+        font-size: 0.8rem;       
+    }
+    /* ---------------------------- */
+
+
+    /* bariloche---section */
+    .brc-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-brc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardc{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardc h4{
+        font-size: 1.2rem;
+    }
+    .cardc p{
+        margin: 0;
+        font-size: 0.8rem;       
+    }
+    /* ---------------------------- */
+
+
+    /* ushuaia---section */
+    .ushuaia-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-ushuaia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardd{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardd h4{
+        font-size: 1.2rem;
+    }
+    .cardd p{
+        margin: 0;
+        font-size: 0.8rem;    
+    }
+/* ---------------------------------------- */
+
+
+
 @media screen and (max-width: 740px){
     /* HEADER---WEBSITE--------------- */
     header{
@@ -30,7 +175,12 @@
     .proporcionamos-viajes{
         text-align: center;
     }
-    
+    .reservas-section h2{
+        font-size: 1.5rem;
+    }
+
+    /* section-contacto */
+
 }
 
 @media screen and (max-width: 500px){
@@ -71,6 +221,14 @@
         margin: 14px;
         padding: 10px;
     }
+         /* .....section---nosotros..... */
+
+         .nosotros-section h2{
+            font-size: 0.9rem;
+        }
+        .nosotros-section p{
+            font-size: 0.7rem;
+        }
 }
 
 @media screen and (max-width: 360px){
