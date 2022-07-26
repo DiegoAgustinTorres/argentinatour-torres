@@ -1,0 +1,257 @@
+@media screen and (max-width: 1000px){
+    .caba-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-caba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .carda{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .carda h4{
+        font-size: 1.2rem;
+    }
+    .carda p{
+        margin: 0;
+        font-size: 0.8rem;  
+    }
+
+    .cba-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-cba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardb{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardb h4{
+        font-size: 1.2rem;
+    }
+    .cardb p{
+        margin: 0;
+        font-size: 0.8rem;       
+    }
+    /* ---------------------------- */
+
+
+    /* bariloche---section */
+    .brc-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-brc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardc{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardc h4{
+        font-size: 1.2rem;
+    }
+    .cardc p{
+        margin: 0;
+        font-size: 0.8rem;       
+    }
+    /* ---------------------------- */
+
+
+    /* ushuaia---section */
+    .ushuaia-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-viajes-ushuaia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .cardd{
+        width: px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .cardd h4{
+        font-size: 1.2rem;
+    }
+    .cardd p{
+        margin: 0;
+        font-size: 0.8rem;    
+    }
+
+    /* .....section---contacto..... */
+    .redes-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes-contenedor-one{
+        display: flex;
+        padding: 30px;
+
+    }
+    .grid-one{
+        flex-direction: column;
+    }
+
+
+    
+
+
+
+     /* .....section---nosotros..... */
+
+    .nosotros-section h2{
+        font-size: 1.2rem;
+    }
+    .nosotros-section p{
+        font-size: 1rem;
+    }
+
+    }
+    /* ------------------------- */
+/* ---------------------------------------- */
+
+
+
+@media screen and (max-width: 740px){
+    /* HEADER---WEBSITE--------------- */
+    header{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+    }
+    .logo{
+        justify-content: center;
+    }
+    .logo:hover{
+        background-color: rgba(240, 248, 255, 0.918);
+        border-radius: 30px;
+        padding-right: 9px;
+        color: rgb(33, 50, 95);
+        width: 0;
+    }
+    .barra-nav{
+        padding: 0px 0px 6px 0px;
+
+    }
+    .container-logo{
+        margin: 0;
+    }
+    .footer-icons{
+        padding-top: 20px;
+    }
+
+    .proporcionamos-viajes{
+        text-align: center;
+    }
+    .reservas-section h2{
+        font-size: 1.5rem;
+    }
+
+    .reservas-div h2{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+    .logo img{
+        height: 40px;
+    }
+    .logo h2{
+        font-size: 1.6rem;
+    }
+    .barra-nav a{
+        font-size: 0.9rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    a{
+        font-size: 1.2rem;
+    }
+    footer{
+        font-size: 0.9rem;
+    }
+    .logo-footer img{
+        height: 20px;
+    }
+    .logo-footer h2{
+        font-size: 1rem;
+    }
+    .container-footer p{
+        font-size: 0.7rem;
+    }
+    .footer-icons a{
+        margin: 10px;
+        padding: 10px;
+    }
+    .footer-icons img{
+        height: 1vh;
+    }
+         /* .....section---nosotros..... */
+
+         .nosotros-section h2{
+            font-size: 0.9rem;
+        }
+        .nosotros-section p{
+            font-size: 0.7rem;
+        }
+    
+    .title h2{
+        font-size: 1.1rem;
+    } 
+}
+
+@media screen and (max-width: 360px){
+    .logo img{
+        height: 26px;
+    }
+    .logo h2{
+       font-size: 1.2rem;
+    }
+    .barra-nav a{
+        font-size: 0.8rem;
+
+    }
+    .container-logo{
+        margin: 0;
+    }
+    .barra-nav a{
+        padding: 0px 0px;
+        margin: 0px 4px;
+    }
+}
