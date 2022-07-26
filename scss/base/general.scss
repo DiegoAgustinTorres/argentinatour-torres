@@ -4,13 +4,9 @@ $colors:(
     body2: rgb(37, 56, 105),
     footer: linear-gradient(90deg, rgba(16,24,46,1) 21%, rgba(22,33,62,1) 77%, rgba(21,32,61,1) 100%),
 );
-
 @mixin card-bann($padd) {
     padding: $padd;
 }
-
-
-
 body{ 
     font-family: sans-serif; 
 
@@ -30,11 +26,6 @@ body{
 
     }
 }
-
-
-
-
-
 header{
     display: flex;
     height: 10vh;
@@ -100,10 +91,6 @@ header{
        
     }
 }
-
-
-
-
 footer{
     background: map-get($colors, "footer");
     color: aliceblue;
@@ -128,10 +115,10 @@ footer{
             margin-bottom: 2vh;
 
             img{
-                height: 60px;
+                height: 40px;
             }
             .nombre-empresa-footer{
-                font-size: 2rem;
+                font-size: 1.8rem;
                 padding-top: 9px;
                 padding-left: 4px;
                 font-weight: bold;
@@ -146,16 +133,16 @@ footer{
     .footer-icons{
         margin-bottom: 60px;
         a{
-            margin: 24px;
-            padding: 20px;
+            margin: 14px;
+            padding: 10px;
             &:hover{
                 background-color: rgb(33, 50, 95);
-                padding: 20px;
+                padding: 10px;
                 border-radius: 50px;
             }
         }
         img{
-            height: 3.5vh;
+            height: 2.5vh;
         }
     }
 }

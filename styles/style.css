@@ -103,10 +103,10 @@ footer .container-footer .logo-footer {
   margin-bottom: 2vh;
 }
 footer .container-footer .logo-footer img {
-  height: 60px;
+  height: 40px;
 }
 footer .container-footer .logo-footer .nombre-empresa-footer {
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-top: 9px;
   padding-left: 4px;
   font-weight: bold;
@@ -120,16 +120,16 @@ footer .footer-icons {
   margin-bottom: 60px;
 }
 footer .footer-icons a {
-  margin: 24px;
-  padding: 20px;
+  margin: 14px;
+  padding: 10px;
 }
 footer .footer-icons a:hover {
   background-color: rgb(33, 50, 95);
-  padding: 20px;
+  padding: 10px;
   border-radius: 50px;
 }
 footer .footer-icons img {
-  height: 3.5vh;
+  height: 2.5vh;
 }
 
 @media screen and (max-width: 1000px) {
@@ -243,6 +243,7 @@ footer .footer-icons img {
   .grid-one {
     flex-direction: column;
   }
+  /* --------------------------------- */
   /* .....section---nosotros..... */
   .nosotros-section h2 {
     font-size: 1.2rem;
@@ -786,6 +787,10 @@ footer .footer-icons img {
   align-items: center;
   background-color: rgb(45, 63, 134);
   margin-top: 30px;
+}
+
+.contact--container {
+  justify-content: center;
 }
 
 .text--contact {

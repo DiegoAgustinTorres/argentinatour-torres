@@ -26,14 +26,10 @@
         padding: 14px 20px;
     }
 }
-
-
 .container{
     max-width: 1400px;
     margin: auto;
 }
-
-
 #visita-nuestro-pais{
     font-family: 'Inter', sans-serif;
     font-size: large;
@@ -47,8 +43,6 @@
         font-weight: bold;
     }
 }
-
-
 .segundobann{
     @extend #visita-nuestro-pais;
     
